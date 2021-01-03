@@ -36,6 +36,5 @@ for f in foto:
                     shutil.copyfileobj(filereq.raw,receive)
                     del filereq
                 iter=iter+1   
-            break  #break for 1 foto           
-        # print ('tables',tables)
+            break  
     index=index+1
